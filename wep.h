@@ -10,7 +10,7 @@ class weapon{
  vector<string> modifiers; //Horse, Armor, Mage
   
  public:
-   vector<weapon> genWepList(); //creates the basic weapon types used in the game
+   vector<weapon> genWepList(vector<weapon> vec); //creates the basic weapon types used in the game
 }
 
 #endif
