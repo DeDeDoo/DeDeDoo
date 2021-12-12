@@ -1,5 +1,6 @@
 #ifndef CHAR_H_
 #define CHAR_H
+#include <vector>
 
 class character{
   int HP;
@@ -8,8 +9,8 @@ class character{
   int DEF;
   int RES;
   int INT;
-  int FTH;
   int MVT;
+  vector<string> modifiers;  
 }
 
 #endif
